@@ -1,7 +1,7 @@
 <script>
 var password=""
 var strength=""
-function strength()
+function checkStrength()
 {
 if(password.length >10 && /\d/.test(password))
 {
